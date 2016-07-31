@@ -1,0 +1,47 @@
+<ion-content padding>
+
+    <div text-center>
+        <img src="img/logo/logo_80_120.png" title="" alt="">
+        <h3>Acompanhantes</h3>
+    </div>
+
+    <ion-list>
+        <ion-item>
+            <ion-label floating>
+                <ion-icon name="mail" padding-right></ion-icon> E-mail
+            </ion-label>
+
+            <ion-input type="email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>
+                <ion-icon name="key" padding-right></ion-icon> Senha
+            </ion-label>
+
+            <ion-input type="password"></ion-input>
+        </ion-item>
+    </ion-list>
+
+
+    <ion-grid>
+        <ion-row>
+            <ion-col text-left width-50>
+                <button clear>
+                    <ion-icon name="eye" padding-right></ion-icon> Lembrar senha
+                </button>
+            </ion-col>
+
+            <ion-col text-right width-50>
+                <button clear>
+                    <ion-icon name="contact" padding-right></ion-icon> Criar conta
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <div padding>
+        <button primary block (click)="login()">Sign In</button>
+    </div>
+
+</ion-content>
